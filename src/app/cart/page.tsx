@@ -102,7 +102,7 @@ export default function CartPage() {
         <button
           onClick={handleCheckout}
           disabled={checkoutMutation.isPending}
-          className="mt-4 w-full rounded-lg bg-black py-3 text-white"
+          className="mt-4 w-full rounded-lg bg-black py-3 text-white cursor-pointer"
         >
           {checkoutMutation.isPending ? "Processing..." : "Checkout"}
         </button>
